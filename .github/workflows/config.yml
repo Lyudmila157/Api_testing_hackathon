@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run UI-tests via docker-compose
+      - name: Run API-tests via docker-compose
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
