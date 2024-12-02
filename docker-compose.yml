@@ -12,3 +12,4 @@ services:
     working_dir: /usr/workspace
     environment:
       - API_TOKEN=${API_TOKEN}
+
