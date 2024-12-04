@@ -2,13 +2,22 @@
   "9ed851cf7e16acf40c3dc6a85980fbda" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a4548fb030eab1e4",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "time" : {
+        "start" : 1733297612502,
+        "stop" : 1733297613917,
+        "duration" : 1415
+      }
+    }, {
       "uid" : "4f9d7a2af028117c",
       "status" : "broken",
       "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
@@ -22,13 +31,22 @@
   "adc8a76095bb3554fb51d924cb791563" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c30da46114d0d170",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "time" : {
+        "start" : 1733297610223,
+        "stop" : 1733297612421,
+        "duration" : 2198
+      }
+    }, {
       "uid" : "db4883b8b8bbc00",
       "status" : "broken",
       "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
@@ -44,11 +62,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ddf701258b3551be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1733297613946,
+        "stop" : 1733297615995,
+        "duration" : 2049
+      }
+    }, {
       "uid" : "30dfdc612ed26500",
       "status" : "passed",
       "time" : {
