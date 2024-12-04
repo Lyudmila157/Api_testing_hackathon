@@ -1,0 +1,103 @@
+{
+  "uid" : "22dec354f9b2a54c",
+  "name" : "List all users",
+  "fullName" : "tests.test_users.TestUsers#test_list_all_users",
+  "historyId" : "df26d28489d1c7408467312fef357a9f",
+  "time" : {
+    "start" : 1733298977078,
+    "stop" : 1733298977078,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+  "statusTrace" : "@pytest.fixture(autouse=True, scope=\"session\")\n    def init_environment():\n        response = requests.post(\n            url=f\"{HOST}/setup\",\n            headers={\"Authorization\": f\"Bearer {os.getenv('API_TOKEN')}\"}\n        )\n>       assert response.status_code == 205\nE       assert 401 == 205\nE        +  where 401 = <Response [401]>.status_code\n\nconftest.py:19: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1733298975955,
+      "stop" : 1733298977017,
+      "duration" : 1062
+    },
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/pluggy/_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n  File \"/usr/local/lib/python3.10/site-packages/_pytest/setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n  File \"/usr/local/lib/python3.10/site-packages/pluggy/_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n  File \"/usr/local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 1140, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/usr/local/lib/python3.10/site-packages/_pytest/fixtures.py\", line 898, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"/usr/workspace/conftest.py\", line 19, in init_environment\n    assert response.status_code == 205\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1733298975951,
+      "stop" : 1733298975954,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Users"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "users"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_users"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUsers"
+  }, {
+    "name" : "host",
+    "value" : "15b7d9bab8cc"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "users" ]
+  },
+  "source" : "22dec354f9b2a54c.json",
+  "parameterValues" : [ ]
+}

@@ -1,31 +1,121 @@
 [ {
-  "uid" : "2be6ae71892c1f9b",
+  "uid" : "f1428ef0ec4e9cd3",
+  "name" : "Delete user",
+  "time" : {
+    "start" : 1733298977083,
+    "stop" : 1733298977083,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "829c902e0c5552f7",
+  "name" : "Create new user",
+  "time" : {
+    "start" : 1733298977073,
+    "stop" : 1733298977073,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f005606646842af",
+  "name" : "Get a user by email and password",
+  "time" : {
+    "start" : 1733298977102,
+    "stop" : 1733298977102,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "22dec354f9b2a54c",
+  "name" : "List all users",
+  "time" : {
+    "start" : 1733298977078,
+    "stop" : 1733298977078,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e778bdf05fb0893d",
+  "name" : "Delete user and verify user not in list",
+  "time" : {
+    "start" : 1733298977097,
+    "stop" : 1733298977097,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de760efd70005ba9",
+  "name" : "Update user",
+  "time" : {
+    "start" : 1733298977092,
+    "stop" : 1733298977092,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2573881772285794",
+  "name" : "Get a wishlist",
+  "time" : {
+    "start" : 1733298977107,
+    "stop" : 1733298977107,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "983f1b229f10bc46",
   "name" : "List all orders",
   "time" : {
-    "start" : 1733298077647,
-    "stop" : 1733298079627,
-    "duration" : 1980
+    "start" : 1733298977068,
+    "stop" : 1733298977068,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "4801152316ea69fc",
-  "name" : "Create a new order",
+  "uid" : "773db4a6c3e5ec8f",
+  "name" : "Add an item to users wishlist",
   "time" : {
-    "start" : 1733298076026,
-    "stop" : 1733298077616,
-    "duration" : 1590
+    "start" : 1733298977112,
+    "stop" : 1733298977112,
+    "duration" : 0
   },
-  "status" : "broken",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "f0254b4f26aedaa",
+  "uid" : "c16f98b47e6c8f35",
   "name" : "Update user's avatar",
   "time" : {
-    "start" : 1733298073628,
-    "stop" : 1733298075944,
-    "duration" : 2316
+    "start" : 1733298975951,
+    "stop" : 1733298975951,
+    "duration" : 0
   },
-  "status" : "broken",
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd28a29151bdfd8",
+  "name" : "Create a new order",
+  "time" : {
+    "start" : 1733298977062,
+    "stop" : 1733298977062,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "231e80152c1ae7dc",
+  "name" : "Get user",
+  "time" : {
+    "start" : 1733298977087,
+    "stop" : 1733298977087,
+    "duration" : 0
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

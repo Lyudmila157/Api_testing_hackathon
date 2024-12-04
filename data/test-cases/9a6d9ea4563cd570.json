@@ -1,12 +1,12 @@
 {
-  "uid" : "2be6ae71892c1f9b",
+  "uid" : "9a6d9ea4563cd570",
   "name" : "List all orders",
   "fullName" : "tests.test_orders.TestOrders#test_list_all_orders",
   "historyId" : "74c60fb84286885b35c8cc55380bd782",
   "time" : {
-    "start" : 1733298077647,
-    "stop" : 1733298079627,
-    "duration" : 1980
+    "start" : 1733298969480,
+    "stop" : 1733298971651,
+    "duration" : 2171
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "_xunit_setup_method_fixture_TestOrders",
     "time" : {
-      "start" : 1733298077647,
-      "stop" : 1733298077647,
+      "start" : 1733298969480,
+      "stop" : 1733298969480,
       "duration" : 0
     },
     "status" : "passed",
@@ -32,16 +32,16 @@
     "steps" : [ {
       "name" : "Get user",
       "time" : {
-        "start" : 1733298077647,
-        "stop" : 1733298078416,
-        "duration" : 769
+        "start" : 1733298969480,
+        "stop" : 1733298970575,
+        "duration" : 1095
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "bfe59db3dedc1ad6",
+        "uid" : "7cf5056ffa610ac7",
         "name" : "API Response",
-        "source" : "bfe59db3dedc1ad6.json",
+        "source" : "7cf5056ffa610ac7.json",
         "type" : "application/json",
         "size" : 2169
       } ],
@@ -53,22 +53,22 @@
     }, {
       "name" : "List all orders",
       "time" : {
-        "start" : 1733298078416,
-        "stop" : 1733298079627,
-        "duration" : 1211
+        "start" : 1733298970575,
+        "stop" : 1733298971651,
+        "duration" : 1076
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "db4b9c82e6a31c9e",
+        "uid" : "ea88f0c41214694d",
         "name" : "API Response",
-        "source" : "db4b9c82e6a31c9e.json",
+        "source" : "ea88f0c41214694d.json",
         "type" : "application/json",
         "size" : 60
       } ],
       "parameters" : [ {
         "name" : "user_uuid",
-        "value" : "'c6a006b1-2da2-44ce-9b08-e8a512676ab1'"
+        "value" : "'7fa18cc3-756d-4f34-b86d-224446f90cd1'"
       } ],
       "attachmentsCount" : 1,
       "shouldDisplayMessage" : false,
@@ -85,8 +85,8 @@
   "afterStages" : [ {
     "name" : "_xunit_setup_method_fixture_TestOrders::0",
     "time" : {
-      "start" : 1733298079628,
-      "stop" : 1733298079628,
+      "start" : 1733298971652,
+      "stop" : 1733298971652,
       "duration" : 0
     },
     "status" : "passed",
@@ -99,11 +99,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Users Orders"
-  }, {
     "name" : "feature",
     "value" : "Orders"
+  }, {
+    "name" : "epic",
+    "value" : "Users Orders"
   }, {
     "name" : "tag",
     "value" : "order"
@@ -118,7 +118,7 @@
     "value" : "TestOrders"
   }, {
     "name" : "host",
-    "value" : "7803c442d1cb"
+    "value" : "e476079d96ff"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -137,41 +137,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 3,
-        "unknown" : 0,
-        "total" : 3
-      },
-      "items" : [ {
-        "uid" : "ddf701258b3551be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733297613946,
-          "stop" : 1733297615995,
-          "duration" : 2049
-        }
-      }, {
-        "uid" : "30dfdc612ed26500",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733296871586,
-          "stop" : 1733296873440,
-          "duration" : 1854
-        }
-      } ]
-    },
     "tags" : [ "order" ]
   },
-  "source" : "2be6ae71892c1f9b.json",
+  "source" : "9a6d9ea4563cd570.json",
   "parameterValues" : [ ]
 }

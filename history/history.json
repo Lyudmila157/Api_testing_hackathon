@@ -1,14 +1,23 @@
 {
   "9ed851cf7e16acf40c3dc6a85980fbda" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "fd28a29151bdfd8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977062,
+        "stop" : 1733298977062,
+        "duration" : 0
+      }
+    }, {
       "uid" : "4801152316ea69fc",
       "status" : "broken",
       "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
@@ -39,14 +48,23 @@
   },
   "adc8a76095bb3554fb51d924cb791563" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "c16f98b47e6c8f35",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298975951,
+        "stop" : 1733298975951,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f0254b4f26aedaa",
       "status" : "broken",
       "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
@@ -75,16 +93,85 @@
       }
     } ]
   },
+  "19e69532190131fddff8e345fa0b756f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f005606646842af",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977102,
+        "stop" : 1733298977102,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6f3e778a3f95b7678941ec2b2bb01b94" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1428ef0ec4e9cd3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977083,
+        "stop" : 1733298977083,
+        "duration" : 0
+      }
+    } ]
+  },
+  "df26d28489d1c7408467312fef357a9f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22dec354f9b2a54c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977078,
+        "stop" : 1733298977078,
+        "duration" : 0
+      }
+    } ]
+  },
   "74c60fb84286885b35c8cc55380bd782" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "983f1b229f10bc46",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977068,
+        "stop" : 1733298977068,
+        "duration" : 0
+      }
+    }, {
       "uid" : "2be6ae71892c1f9b",
       "status" : "passed",
       "time" : {
@@ -107,6 +194,126 @@
         "start" : 1733296871586,
         "stop" : 1733296873440,
         "duration" : 1854
+      }
+    } ]
+  },
+  "f0e1a6e0ac836d17188496f21c8bf2f0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "773db4a6c3e5ec8f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977112,
+        "stop" : 1733298977112,
+        "duration" : 0
+      }
+    } ]
+  },
+  "27203c15b0353887295772397967e8ef" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de760efd70005ba9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977092,
+        "stop" : 1733298977092,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ce0b19f95bcbd1de31b616ddbadc8db8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "829c902e0c5552f7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977073,
+        "stop" : 1733298977073,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bda4146deeadb2a261c283e1ba675a93" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "231e80152c1ae7dc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977087,
+        "stop" : 1733298977087,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1678f38b49c7c6d545b1d415d18a9d9f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e778bdf05fb0893d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977097,
+        "stop" : 1733298977097,
+        "duration" : 0
+      }
+    } ]
+  },
+  "77bed5c3b70374d84683059247cc4c68" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2573881772285794",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+      "time" : {
+        "start" : 1733298977107,
+        "stop" : 1733298977107,
+        "duration" : 0
       }
     } ]
   }
