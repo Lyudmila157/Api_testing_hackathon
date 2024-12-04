@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "81ad19784d34",
+    "name" : "39952f67fdb3",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Create a new order",
-        "uid" : "65364b8754c740be",
-        "parentUid" : "4049bf2e8ddc6d60beb9e3834b7ade8e",
+        "name" : "Update user's avatar",
+        "uid" : "db4883b8b8bbc00",
+        "parentUid" : "6771f612a50222e7d9dba1bb88b723c4",
         "status" : "broken",
         "time" : {
-          "start" : 1733296468257,
-          "stop" : 1733296470301,
-          "duration" : 2044
+          "start" : 1733296867491,
+          "stop" : 1733296869886,
+          "duration" : 2395
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Update user's avatar",
-        "uid" : "918b3bc299d215ab",
-        "parentUid" : "4049bf2e8ddc6d60beb9e3834b7ade8e",
+        "name" : "Create a new order",
+        "uid" : "4f9d7a2af028117c",
+        "parentUid" : "6771f612a50222e7d9dba1bb88b723c4",
         "status" : "broken",
         "time" : {
-          "start" : 1733296466160,
-          "stop" : 1733296468179,
-          "duration" : 2019
+          "start" : 1733296869965,
+          "stop" : 1733296871557,
+          "duration" : 1592
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "List all orders",
-        "uid" : "61b8eb885e5b955e",
-        "parentUid" : "4049bf2e8ddc6d60beb9e3834b7ade8e",
+        "uid" : "30dfdc612ed26500",
+        "parentUid" : "6771f612a50222e7d9dba1bb88b723c4",
         "status" : "passed",
         "time" : {
-          "start" : 1733296470331,
-          "stop" : 1733296472122,
-          "duration" : 1791
+          "start" : 1733296871586,
+          "stop" : 1733296873440,
+          "duration" : 1854
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4049bf2e8ddc6d60beb9e3834b7ade8e"
+      "uid" : "6771f612a50222e7d9dba1bb88b723c4"
     } ],
-    "uid" : "00c7d36c591f6a4c78e5528715b13629"
+    "uid" : "b9426eeeec16ef7678fc697b3ff527d1"
   } ],
   "name" : "timeline"
 }
