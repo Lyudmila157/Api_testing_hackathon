@@ -11,8 +11,6 @@ services:
     command: /bin/sh -c "pytest -sv --alluredir=allure-results"
     working_dir: /usr/workspace
     environment:
-      STAGE: prod
-      SUITE: users
       API_TOKEN: ${API_TOKEN}
 
   report:
