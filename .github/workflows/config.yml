@@ -21,6 +21,9 @@ jobs:
         run: |
           docker compose up --exit-code-from api-tests || true
 
+      - name: Build and run tests with Docker Compose
+        run: docker-compose up --build --abort-on-container-exit
+
       - name: Copy history from gh-pages to allure-results
         run: |
           sudo mkdir -p allure-results/history  # Создает директорию для истории Allure
