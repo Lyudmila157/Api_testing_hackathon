@@ -18,23 +18,25 @@ class OrdersAPI(Helper):
 
     @allure.step("Create a new order")
     def create_a_new_order(self, user_uuid):
-        url = self.endpoints.get_user_wishlist(user_uuid)
+        url = self.endpoints.create_a_new_order(user_uuid)
+        print(f"Request URL: {url}")
+        print(f"Payload being sent: {self.payloads.create_a_new_order}")
         response = requests.post(
             url=url,
             headers=self.headers.basic_api_16,
             json=self.payloads.create_a_new_order
         )
-        self.attach_response(response.json())
+        print(f"Status code: {response.status_code}, Response text: {response.text}")
+
         if response.status_code == 204:
             print(f"User with UUID {user_uuid} successfully.")
         else:
-            print(f"Failed Status code: {response.status_code}, Response: {response.text}")
-
-        self.attach_response(response.json())
-        if response.status_code == 200:
-            print(f"The orders with UUID {user_uuid} was received completed")
-        else:
-            print(f"Failed to orders. Status code: {response.status_code}, Response: {response.text}")
+            try:
+                response_data = response.json()
+                self.attach_response(response_data)
+            except ValueError:
+                print(
+                    f"Failed to decode JSON. Response is not JSON. Status code: {response.status_code}, Response text: {response.text}")
 
     @allure.step("List all orders")
     def list_all_orders(self, user_uuid):

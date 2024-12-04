@@ -20,4 +20,4 @@ class Endpoints:
     get_user_wishlist = lambda self, uuid: f"{HOST}/users/{uuid}/wishlist"
     create_a_new_order = lambda self, uuid: f"{HOST}/users/{uuid}/orders"
     list_all_orders_for_a_users = lambda self, uuid: f"{HOST}/users/{uuid}/orders"
-    update_avatar = lambda self, uuid: f"{HOST}/users/{uuid}/orders"
+    update_avatar = lambda self, uuid: f"{HOST}/users/{uuid}/avatar"

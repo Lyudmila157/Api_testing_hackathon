@@ -15,24 +15,12 @@ jobs:
           ref: gh-pages
           path: ./.github/gh-pages
 
-#      - name: Build and run tests with Docker Compose
-#        env:
-#          API_TOKEN: ${{ secrets.API_TOKEN }}
-#        run: |
-#          docker compose up --build --abort-on-container-exit
-#          docker compose logs -f api-tests
-
       - name: Build and run tests with Docker Compose
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
           docker compose up --build
           docker compose logs -f api-tests
-
-#      - name: Build and run tests with Docker Compose
-#        run: |
-#          docker compose up --build --abort-on-container-exit
-#          docker compose logs -f api-tests
 
       - name: Copy history from gh-pages to allure-results
         run: |

@@ -14,6 +14,7 @@ class TestOrders(BaseTest):
     @allure.title("Create a new order")
     def test_create_a_new_order(self):
         user_uuid = self.api_users.get_user()
+        print(f"User UUID in test: {user_uuid}")
         if user_uuid:
             self.orders_users.create_a_new_order(user_uuid)
         else:
