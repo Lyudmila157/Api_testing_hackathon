@@ -23,8 +23,8 @@ jobs:
 
       - name: Build and run tests with Docker Compose
         run: |
-          docker-compose up --build
-          docker-compose logs -f api-tests  # Печатает логи тестов в реальном времени
+          docker compose up --build
+          docker compose logs -f api-tests  # Печатает логи тестов в реальном времени
 
       - name: Copy history from gh-pages to allure-results
         run: |
