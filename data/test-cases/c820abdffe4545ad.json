@@ -1,30 +1,60 @@
 {
-  "uid" : "4200ac6e8ec386f0",
-  "name" : "List all orders",
-  "fullName" : "tests.test_orders.TestOrders#test_list_all_orders",
-  "historyId" : "74c60fb84286885b35c8cc55380bd782",
+  "uid" : "c820abdffe4545ad",
+  "name" : "Add an item to users wishlist",
+  "fullName" : "tests.test_wishlist.TestWishlist#test_add_an_item_to_users_wishlist",
+  "historyId" : "f0e1a6e0ac836d17188496f21c8bf2f0",
   "time" : {
-    "start" : 1733300093821,
-    "stop" : 1733300095551,
-    "duration" : 1730
+    "start" : 1733300340216,
+    "stop" : 1733300341572,
+    "duration" : 1356
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_xunit_setup_method_fixture_TestOrders",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1733300093820,
-      "stop" : 1733300093821,
+      "start" : 1733300320609,
+      "stop" : 1733300320610,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestWishlist",
+    "time" : {
+      "start" : 1733300340215,
+      "stop" : 1733300340215,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1733300320610,
+      "stop" : 1733300323966,
+      "duration" : 3356
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false
   } ],
   "testStage" : {
@@ -32,93 +62,93 @@
     "steps" : [ {
       "name" : "Get user",
       "time" : {
-        "start" : 1733300093821,
-        "stop" : 1733300094561,
-        "duration" : 740
+        "start" : 1733300340216,
+        "stop" : 1733300340888,
+        "duration" : 672
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "7867d693d36201ba",
+        "uid" : "812cb6983d39d388",
         "name" : "API Response",
-        "source" : "7867d693d36201ba.json",
+        "source" : "812cb6983d39d388.json",
         "type" : "application/json",
-        "size" : 2169
+        "size" : 2184
       } ],
       "parameters" : [ ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "List all orders",
+      "name" : "Add an item to users wishlist",
       "time" : {
-        "start" : 1733300094561,
-        "stop" : 1733300095551,
-        "duration" : 990
+        "start" : 1733300340888,
+        "stop" : 1733300341572,
+        "duration" : 684
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "32b1b3da7da5216",
+        "uid" : "882bf53f055b0255",
         "name" : "API Response",
-        "source" : "32b1b3da7da5216.json",
+        "source" : "882bf53f055b0255.json",
         "type" : "application/json",
-        "size" : 60
+        "size" : 109
       } ],
       "parameters" : [ {
         "name" : "user_uuid",
-        "value" : "'9997deb5-931b-4813-a578-c35e729d561a'"
+        "value" : "'b8daaab9-9f39-45d0-8e78-0d719b1dc411'"
       } ],
-      "hasContent" : true,
-      "stepsCount" : 0,
       "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : true,
-    "stepsCount" : 2,
     "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true,
     "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
-    "name" : "_xunit_setup_method_fixture_TestOrders::0",
+    "name" : "_xunit_setup_method_fixture_TestWishlist::0",
     "time" : {
-      "start" : 1733300095552,
-      "stop" : 1733300095552,
-      "duration" : 0
+      "start" : 1733300341572,
+      "stop" : 1733300341573,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "stepsCount" : 0,
     "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Orders"
+    "value" : "Wishlist"
   }, {
     "name" : "epic",
-    "value" : "Users Orders"
+    "value" : "Users Wishlist"
   }, {
     "name" : "tag",
-    "value" : "order"
+    "value" : "wishlist"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "test_orders"
+    "value" : "test_wishlist"
   }, {
     "name" : "subSuite",
-    "value" : "TestOrders"
+    "value" : "TestWishlist"
   }, {
     "name" : "host",
-    "value" : "1c2d5c28b4d8"
+    "value" : "563c7baa90f6"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -130,7 +160,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.test_orders"
+    "value" : "tests.test_wishlist"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -148,55 +178,23 @@
         "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 1,
         "unknown" : 0,
-        "total" : 6
+        "total" : 2
       },
       "items" : [ {
-        "uid" : "d6c7328cd1a80d33",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733299719572,
-          "stop" : 1733299721616,
-          "duration" : 2044
-        }
-      }, {
-        "uid" : "983f1b229f10bc46",
+        "uid" : "773db4a6c3e5ec8f",
         "status" : "failed",
         "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
         "time" : {
-          "start" : 1733298977068,
-          "stop" : 1733298977068,
+          "start" : 1733298977112,
+          "stop" : 1733298977112,
           "duration" : 0
-        }
-      }, {
-        "uid" : "2be6ae71892c1f9b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733298077647,
-          "stop" : 1733298079627,
-          "duration" : 1980
-        }
-      }, {
-        "uid" : "ddf701258b3551be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733297613946,
-          "stop" : 1733297615995,
-          "duration" : 2049
-        }
-      }, {
-        "uid" : "30dfdc612ed26500",
-        "status" : "passed",
-        "time" : {
-          "start" : 1733296871586,
-          "stop" : 1733296873440,
-          "duration" : 1854
         }
       } ]
     },
-    "tags" : [ "order" ]
+    "tags" : [ "wishlist" ]
   },
-  "source" : "4200ac6e8ec386f0.json",
+  "source" : "c820abdffe4545ad.json",
   "parameterValues" : [ ]
 }

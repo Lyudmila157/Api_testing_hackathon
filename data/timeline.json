@@ -1,52 +1,169 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "1c2d5c28b4d8",
+    "name" : "563c7baa90f6",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
+        "name" : "List all orders",
+        "uid" : "7ad6f42731dc00a2",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300327328,
+          "stop" : 1733300328980,
+          "duration" : 1652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "Create a new order",
-        "uid" : "6ca1b4561a3de93f",
-        "parentUid" : "1ca521f6291b7d57bca8728edd6d6279",
+        "uid" : "7d1b6f89968708b8",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
         "status" : "broken",
         "time" : {
-          "start" : 1733300092250,
-          "stop" : 1733300093791,
-          "duration" : 1541
+          "start" : 1733300325879,
+          "stop" : 1733300327298,
+          "duration" : 1419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create new user",
+        "uid" : "3dfb7ffb8813eb36",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300328983,
+          "stop" : 1733300330672,
+          "duration" : 1689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get a wishlist",
+        "uid" : "6bc2147ae84fb7d4",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300338769,
+          "stop" : 1733300340213,
+          "duration" : 1444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete user and verify user not in list",
+        "uid" : "16ab299ba8dcecd7",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300335736,
+          "stop" : 1733300338042,
+          "duration" : 2306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get user",
+        "uid" : "6f761b9bb3f56bd0",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300333329,
+          "stop" : 1733300334018,
+          "duration" : 689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "List all users",
+        "uid" : "a1897930fda85e1c",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300330674,
+          "stop" : 1733300331435,
+          "duration" : 761
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Update user's avatar",
-        "uid" : "47edc9679fb5f711",
-        "parentUid" : "1ca521f6291b7d57bca8728edd6d6279",
+        "uid" : "159193eb0f2046a7",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
         "status" : "broken",
         "time" : {
-          "start" : 1733300089606,
-          "stop" : 1733300092169,
-          "duration" : 2563
+          "start" : 1733300323967,
+          "stop" : 1733300325797,
+          "duration" : 1830
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "List all orders",
-        "uid" : "4200ac6e8ec386f0",
-        "parentUid" : "1ca521f6291b7d57bca8728edd6d6279",
+        "name" : "Update user",
+        "uid" : "941a3b730391b4da",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
         "status" : "passed",
         "time" : {
-          "start" : 1733300093821,
-          "stop" : 1733300095551,
-          "duration" : 1730
+          "start" : 1733300334020,
+          "stop" : 1733300335733,
+          "duration" : 1713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete user",
+        "uid" : "db3c23fb567eefcf",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300331437,
+          "stop" : 1733300333327,
+          "duration" : 1890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get a user by email and password",
+        "uid" : "fdee425d3ef9efc3",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300338045,
+          "stop" : 1733300338767,
+          "duration" : 722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add an item to users wishlist",
+        "uid" : "c820abdffe4545ad",
+        "parentUid" : "e7b78e4bc3a926c399f1687a1ab58abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733300340216,
+          "stop" : 1733300341572,
+          "duration" : 1356
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1ca521f6291b7d57bca8728edd6d6279"
+      "uid" : "e7b78e4bc3a926c399f1687a1ab58abc"
     } ],
-    "uid" : "2e87561606f30abf6b8c3145d796bde8"
+    "uid" : "8bb169b236c611feca5a04ef82c6d50a"
   } ],
   "name" : "timeline"
 }

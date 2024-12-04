@@ -1,0 +1,200 @@
+{
+  "uid" : "6bc2147ae84fb7d4",
+  "name" : "Get a wishlist",
+  "fullName" : "tests.test_wishlist.TestWishlist#test_get_a_wishlist",
+  "historyId" : "77bed5c3b70374d84683059247cc4c68",
+  "time" : {
+    "start" : 1733300338769,
+    "stop" : 1733300340213,
+    "duration" : 1444
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist",
+    "time" : {
+      "start" : 1733300338769,
+      "stop" : 1733300338769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1733300320609,
+      "stop" : 1733300320610,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1733300320610,
+      "stop" : 1733300323966,
+      "duration" : 3356
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get user",
+      "time" : {
+        "start" : 1733300338769,
+        "stop" : 1733300339458,
+        "duration" : 689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "49575b9f508171e9",
+        "name" : "API Response",
+        "source" : "49575b9f508171e9.json",
+        "type" : "application/json",
+        "size" : 2184
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get a user wishlist",
+      "time" : {
+        "start" : 1733300339458,
+        "stop" : 1733300340213,
+        "duration" : 755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47cb5fe0b65fb1db",
+        "name" : "API Response",
+        "source" : "47cb5fe0b65fb1db.json",
+        "type" : "application/json",
+        "size" : 76
+      } ],
+      "parameters" : [ {
+        "name" : "user_uuid",
+        "value" : "'b8daaab9-9f39-45d0-8e78-0d719b1dc411'"
+      } ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist::0",
+    "time" : {
+      "start" : 1733300340214,
+      "stop" : 1733300340214,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Wishlist"
+  }, {
+    "name" : "epic",
+    "value" : "Users Wishlist"
+  }, {
+    "name" : "tag",
+    "value" : "wishlist"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_wishlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWishlist"
+  }, {
+    "name" : "host",
+    "value" : "563c7baa90f6"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_wishlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2573881772285794",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
+        "time" : {
+          "start" : 1733298977107,
+          "stop" : 1733298977107,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "wishlist" ]
+  },
+  "source" : "6bc2147ae84fb7d4.json",
+  "parameterValues" : [ ]
+}

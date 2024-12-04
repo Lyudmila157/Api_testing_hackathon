@@ -6,26 +6,26 @@
       "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
       "children" : [ {
         "name" : "Update user's avatar",
-        "uid" : "47edc9679fb5f711",
+        "uid" : "159193eb0f2046a7",
         "parentUid" : "0deff55915d4c9ebc746eac29285817c",
         "status" : "broken",
         "time" : {
-          "start" : 1733300089606,
-          "stop" : 1733300092169,
-          "duration" : 2563
+          "start" : 1733300323967,
+          "stop" : 1733300325797,
+          "duration" : 1830
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Create a new order",
-        "uid" : "6ca1b4561a3de93f",
+        "uid" : "7d1b6f89968708b8",
         "parentUid" : "0deff55915d4c9ebc746eac29285817c",
         "status" : "broken",
         "time" : {
-          "start" : 1733300092250,
-          "stop" : 1733300093791,
-          "duration" : 1541
+          "start" : 1733300325879,
+          "stop" : 1733300327298,
+          "duration" : 1419
         },
         "flaky" : false,
         "newFailed" : false,
