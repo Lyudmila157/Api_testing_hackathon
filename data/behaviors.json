@@ -6,13 +6,13 @@
       "name" : "Avatars",
       "children" : [ {
         "name" : "Update user's avatar",
-        "uid" : "c30da46114d0d170",
+        "uid" : "f0254b4f26aedaa",
         "parentUid" : "9c3890d1baf96244c64be27f355dc0f7",
         "status" : "broken",
         "time" : {
-          "start" : 1733297610223,
-          "stop" : 1733297612421,
-          "duration" : 2198
+          "start" : 1733298073628,
+          "stop" : 1733298075944,
+          "duration" : 2316
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,26 +27,26 @@
       "name" : "Orders",
       "children" : [ {
         "name" : "Create a new order",
-        "uid" : "a4548fb030eab1e4",
+        "uid" : "4801152316ea69fc",
         "parentUid" : "151da20c594a9d6558adf2a98e5ea3da",
         "status" : "broken",
         "time" : {
-          "start" : 1733297612502,
-          "stop" : 1733297613917,
-          "duration" : 1415
+          "start" : 1733298076026,
+          "stop" : 1733298077616,
+          "duration" : 1590
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "List all orders",
-        "uid" : "ddf701258b3551be",
+        "uid" : "2be6ae71892c1f9b",
         "parentUid" : "151da20c594a9d6558adf2a98e5ea3da",
         "status" : "passed",
         "time" : {
-          "start" : 1733297613946,
-          "stop" : 1733297615995,
-          "duration" : 2049
+          "start" : 1733298077647,
+          "stop" : 1733298079627,
+          "duration" : 1980
         },
         "flaky" : false,
         "newFailed" : false,
