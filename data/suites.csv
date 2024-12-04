@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 04 07:14:30 GMT 2024","Wed Dec 04 07:14:32 GMT 2024","1791","tests","test_orders","TestOrders","","","List all orders",""
+"broken","Wed Dec 04 07:14:26 GMT 2024","Wed Dec 04 07:14:28 GMT 2024","2019","tests","test_avatars","TestAvatars","","","Update user's avatar",""
+"broken","Wed Dec 04 07:14:28 GMT 2024","Wed Dec 04 07:14:30 GMT 2024","2044","tests","test_orders","TestOrders","","","Create a new order",""

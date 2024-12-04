@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Users Avatars",
+    "children" : [ {
+      "name" : "Avatars",
+      "children" : [ {
+        "name" : "Update user's avatar",
+        "uid" : "918b3bc299d215ab",
+        "parentUid" : "9c3890d1baf96244c64be27f355dc0f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1733296466160,
+          "stop" : 1733296468179,
+          "duration" : 2019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c3890d1baf96244c64be27f355dc0f7"
+    } ],
+    "uid" : "ace196f2fd98c31484ad89b8ccf12148"
+  }, {
+    "name" : "Users Orders",
+    "children" : [ {
+      "name" : "Orders",
+      "children" : [ {
+        "name" : "Create a new order",
+        "uid" : "65364b8754c740be",
+        "parentUid" : "151da20c594a9d6558adf2a98e5ea3da",
+        "status" : "broken",
+        "time" : {
+          "start" : 1733296468257,
+          "stop" : 1733296470301,
+          "duration" : 2044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "List all orders",
+        "uid" : "61b8eb885e5b955e",
+        "parentUid" : "151da20c594a9d6558adf2a98e5ea3da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733296470331,
+          "stop" : 1733296472122,
+          "duration" : 1791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "151da20c594a9d6558adf2a98e5ea3da"
+    } ],
+    "uid" : "477c4f334aeef76256730aa332fbb750"
+  } ],
+  "name" : "behaviors"
+}

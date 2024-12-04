@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "children" : [ {
+        "name" : "Update user's avatar",
+        "uid" : "918b3bc299d215ab",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1733296466160,
+          "stop" : 1733296468179,
+          "duration" : 2019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create a new order",
+        "uid" : "65364b8754c740be",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1733296468257,
+          "stop" : 1733296470301,
+          "duration" : 2044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0deff55915d4c9ebc746eac29285817c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
