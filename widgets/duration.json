@@ -1,31 +1,31 @@
 [ {
-  "uid" : "f7f7d8c4a90ec631",
-  "name" : "Create a new order",
-  "time" : {
-    "start" : 1733299717479,
-    "stop" : 1733299719542,
-    "duration" : 2063
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d6c7328cd1a80d33",
-  "name" : "List all orders",
-  "time" : {
-    "start" : 1733299719572,
-    "stop" : 1733299721616,
-    "duration" : 2044
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f47f196401d0c563",
+  "uid" : "47edc9679fb5f711",
   "name" : "Update user's avatar",
   "time" : {
-    "start" : 1733299715367,
-    "stop" : 1733299717399,
-    "duration" : 2032
+    "start" : 1733300089606,
+    "stop" : 1733300092169,
+    "duration" : 2563
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca1b4561a3de93f",
+  "name" : "Create a new order",
+  "time" : {
+    "start" : 1733300092250,
+    "stop" : 1733300093791,
+    "duration" : 1541
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4200ac6e8ec386f0",
+  "name" : "List all orders",
+  "time" : {
+    "start" : 1733300093821,
+    "stop" : 1733300095551,
+    "duration" : 1730
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

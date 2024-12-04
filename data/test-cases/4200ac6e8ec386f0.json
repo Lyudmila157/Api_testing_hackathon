@@ -1,12 +1,12 @@
 {
-  "uid" : "d6c7328cd1a80d33",
+  "uid" : "4200ac6e8ec386f0",
   "name" : "List all orders",
   "fullName" : "tests.test_orders.TestOrders#test_list_all_orders",
   "historyId" : "74c60fb84286885b35c8cc55380bd782",
   "time" : {
-    "start" : 1733299719572,
-    "stop" : 1733299721616,
-    "duration" : 2044
+    "start" : 1733300093821,
+    "stop" : 1733300095551,
+    "duration" : 1730
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,96 +14,96 @@
   "beforeStages" : [ {
     "name" : "_xunit_setup_method_fixture_TestOrders",
     "time" : {
-      "start" : 1733299719571,
-      "stop" : 1733299719572,
+      "start" : 1733300093820,
+      "stop" : 1733300093821,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Get user",
       "time" : {
-        "start" : 1733299719572,
-        "stop" : 1733299720542,
-        "duration" : 970
+        "start" : 1733300093821,
+        "stop" : 1733300094561,
+        "duration" : 740
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "433225a1f4b7169a",
+        "uid" : "7867d693d36201ba",
         "name" : "API Response",
-        "source" : "433225a1f4b7169a.json",
+        "source" : "7867d693d36201ba.json",
         "type" : "application/json",
         "size" : 2169
       } ],
       "parameters" : [ ],
-      "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "List all orders",
       "time" : {
-        "start" : 1733299720542,
-        "stop" : 1733299721616,
-        "duration" : 1074
+        "start" : 1733300094561,
+        "stop" : 1733300095551,
+        "duration" : 990
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "7d3876ba47bf467b",
+        "uid" : "32b1b3da7da5216",
         "name" : "API Response",
-        "source" : "7d3876ba47bf467b.json",
+        "source" : "32b1b3da7da5216.json",
         "type" : "application/json",
         "size" : 60
       } ],
       "parameters" : [ {
         "name" : "user_uuid",
-        "value" : "'012f6a3e-825a-4bd6-afd2-2604725c8f2a'"
+        "value" : "'9997deb5-931b-4813-a578-c35e729d561a'"
       } ],
-      "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
+      "hasContent" : true,
       "stepsCount" : 0,
-      "hasContent" : true
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 2,
-    "hasContent" : true
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "_xunit_setup_method_fixture_TestOrders::0",
     "time" : {
-      "start" : 1733299721617,
-      "stop" : 1733299721617,
+      "start" : 1733300095552,
+      "stop" : 1733300095552,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
+    "hasContent" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
-    "name" : "epic",
-    "value" : "Users Orders"
-  }, {
     "name" : "feature",
     "value" : "Orders"
+  }, {
+    "name" : "epic",
+    "value" : "Users Orders"
   }, {
     "name" : "tag",
     "value" : "order"
@@ -118,7 +118,7 @@
     "value" : "TestOrders"
   }, {
     "name" : "host",
-    "value" : "46c44404336a"
+    "value" : "1c2d5c28b4d8"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -148,11 +148,19 @@
         "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "d6c7328cd1a80d33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733299719572,
+          "stop" : 1733299721616,
+          "duration" : 2044
+        }
+      }, {
         "uid" : "983f1b229f10bc46",
         "status" : "failed",
         "statusDetails" : "AssertionError: assert 401 == 205\n +  where 401 = <Response [401]>.status_code",
@@ -189,6 +197,6 @@
     },
     "tags" : [ "order" ]
   },
-  "source" : "d6c7328cd1a80d33.json",
+  "source" : "4200ac6e8ec386f0.json",
   "parameterValues" : [ ]
 }

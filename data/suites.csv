@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Dec 04 08:08:37 GMT 2024","Wed Dec 04 08:08:39 GMT 2024","2063","tests","test_orders","TestOrders","","","Create a new order",""
-"passed","Wed Dec 04 08:08:39 GMT 2024","Wed Dec 04 08:08:41 GMT 2024","2044","tests","test_orders","TestOrders","","","List all orders",""
-"broken","Wed Dec 04 08:08:35 GMT 2024","Wed Dec 04 08:08:37 GMT 2024","2032","tests","test_avatars","TestAvatars","","","Update user's avatar",""
+"broken","Wed Dec 04 08:14:49 GMT 2024","Wed Dec 04 08:14:52 GMT 2024","2563","tests","test_avatars","TestAvatars","","","Update user's avatar",""
+"broken","Wed Dec 04 08:14:52 GMT 2024","Wed Dec 04 08:14:53 GMT 2024","1541","tests","test_orders","TestOrders","","","Create a new order",""
+"passed","Wed Dec 04 08:14:53 GMT 2024","Wed Dec 04 08:14:55 GMT 2024","1730","tests","test_orders","TestOrders","","","List all orders",""
