@@ -19,7 +19,8 @@ jobs:
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
-          docker compose up --exit-code-from api-tests || true
+          docker compose up --build --abort-on-container-exit
+         docker compose logs -f api-tests
 
 #      - name: Build and run tests with Docker Compose
 #        run: |
