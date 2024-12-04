@@ -5,17 +5,17 @@
     "users": [
         {
             "avatar_url": "",
-            "email": "averylinda@example.com",
-            "name": "Justin",
-            "nickname": "vasquezjesus",
-            "uuid": "49bd6e29-fda7-43d0-8b2c-d89818c63d31"
+            "email": "sergey@gmail.com",
+            "name": "Sergey",
+            "nickname": "sergey",
+            "uuid": "a94834bc-2538-41ee-ac64-7954a58d63d3"
         },
         {
             "avatar_url": "",
             "email": "will@gmail.com",
             "name": "Will",
             "nickname": "will",
-            "uuid": "abad5e4e-977c-4b60-b539-eaa42952ec24"
+            "uuid": "73dfce95-bc27-49e8-91fc-4dae173d292c"
         }
     ]
 }

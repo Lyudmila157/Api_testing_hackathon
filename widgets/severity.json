@@ -1,120 +1,120 @@
 [ {
-  "uid" : "db3c23fb567eefcf",
-  "name" : "Delete user",
-  "time" : {
-    "start" : 1733300331437,
-    "stop" : 1733300333327,
-    "duration" : 1890
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16ab299ba8dcecd7",
-  "name" : "Delete user and verify user not in list",
-  "time" : {
-    "start" : 1733300335736,
-    "stop" : 1733300338042,
-    "duration" : 2306
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6bc2147ae84fb7d4",
+  "uid" : "1a1b5de2141ea984",
   "name" : "Get a wishlist",
   "time" : {
-    "start" : 1733300338769,
-    "stop" : 1733300340213,
-    "duration" : 1444
+    "start" : 1733339198334,
+    "stop" : 1733339199723,
+    "duration" : 1389
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7ad6f42731dc00a2",
-  "name" : "List all orders",
-  "time" : {
-    "start" : 1733300327328,
-    "stop" : 1733300328980,
-    "duration" : 1652
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3dfb7ffb8813eb36",
-  "name" : "Create new user",
-  "time" : {
-    "start" : 1733300328983,
-    "stop" : 1733300330672,
-    "duration" : 1689
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d1b6f89968708b8",
-  "name" : "Create a new order",
-  "time" : {
-    "start" : 1733300325879,
-    "stop" : 1733300327298,
-    "duration" : 1419
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "941a3b730391b4da",
-  "name" : "Update user",
-  "time" : {
-    "start" : 1733300334020,
-    "stop" : 1733300335733,
-    "duration" : 1713
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6f761b9bb3f56bd0",
-  "name" : "Get user",
-  "time" : {
-    "start" : 1733300333329,
-    "stop" : 1733300334018,
-    "duration" : 689
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c820abdffe4545ad",
-  "name" : "Add an item to users wishlist",
-  "time" : {
-    "start" : 1733300340216,
-    "stop" : 1733300341572,
-    "duration" : 1356
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a1897930fda85e1c",
-  "name" : "List all users",
-  "time" : {
-    "start" : 1733300330674,
-    "stop" : 1733300331435,
-    "duration" : 761
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "159193eb0f2046a7",
+  "uid" : "73a4f1cb8be9d690",
   "name" : "Update user's avatar",
   "time" : {
-    "start" : 1733300323967,
-    "stop" : 1733300325797,
-    "duration" : 1830
+    "start" : 1733339119149,
+    "stop" : 1733339180502,
+    "duration" : 61353
   },
-  "status" : "broken",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "fdee425d3ef9efc3",
+  "uid" : "4f4cf6d140bcb90a",
   "name" : "Get a user by email and password",
   "time" : {
-    "start" : 1733300338045,
-    "stop" : 1733300338767,
-    "duration" : 722
+    "start" : 1733339197768,
+    "stop" : 1733339198331,
+    "duration" : 563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e0751d1d8f790a9",
+  "name" : "List all users",
+  "time" : {
+    "start" : 1733339190446,
+    "stop" : 1733339191138,
+    "duration" : 692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffe83b2ffa0f0e93",
+  "name" : "List all orders",
+  "time" : {
+    "start" : 1733339186724,
+    "stop" : 1733339188873,
+    "duration" : 2149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e18e760cadaac7e",
+  "name" : "Update user",
+  "time" : {
+    "start" : 1733339193755,
+    "stop" : 1733339195240,
+    "duration" : 1485
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7d4cfa872c37d0",
+  "name" : "Create new user",
+  "time" : {
+    "start" : 1733339188875,
+    "stop" : 1733339190444,
+    "duration" : 1569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cdd3032aa5bb18b",
+  "name" : "Delete user",
+  "time" : {
+    "start" : 1733339191140,
+    "stop" : 1733339193079,
+    "duration" : 1939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4da01ecb62646bbb",
+  "name" : "Create a new order",
+  "time" : {
+    "start" : 1733339180586,
+    "stop" : 1733339186721,
+    "duration" : 6135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7efee1d9f8379c7e",
+  "name" : "Add an item to users wishlist",
+  "time" : {
+    "start" : 1733339199725,
+    "stop" : 1733339201292,
+    "duration" : 1567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1f50c77936eedae",
+  "name" : "Get user",
+  "time" : {
+    "start" : 1733339193081,
+    "stop" : 1733339193753,
+    "duration" : 672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1180fc8bae69baaf",
+  "name" : "Delete user and verify user not in list",
+  "time" : {
+    "start" : 1733339195242,
+    "stop" : 1733339197766,
+    "duration" : 2524
   },
   "status" : "passed",
   "severity" : "normal"

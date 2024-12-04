@@ -4,8 +4,8 @@
     "uid" : "ace196f2fd98c31484ad89b8ccf12148",
     "name" : "Users Avatars",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
@@ -16,9 +16,9 @@
     "name" : "Users Orders",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

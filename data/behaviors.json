@@ -6,13 +6,13 @@
       "name" : "Avatars",
       "children" : [ {
         "name" : "Update user's avatar",
-        "uid" : "159193eb0f2046a7",
+        "uid" : "73a4f1cb8be9d690",
         "parentUid" : "9c3890d1baf96244c64be27f355dc0f7",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1733300323967,
-          "stop" : 1733300325797,
-          "duration" : 1830
+          "start" : 1733339119149,
+          "stop" : 1733339180502,
+          "duration" : 61353
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,26 +27,26 @@
       "name" : "Orders",
       "children" : [ {
         "name" : "Create a new order",
-        "uid" : "7d1b6f89968708b8",
+        "uid" : "4da01ecb62646bbb",
         "parentUid" : "151da20c594a9d6558adf2a98e5ea3da",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1733300325879,
-          "stop" : 1733300327298,
-          "duration" : 1419
+          "start" : 1733339180586,
+          "stop" : 1733339186721,
+          "duration" : 6135
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "List all orders",
-        "uid" : "7ad6f42731dc00a2",
+        "uid" : "ffe83b2ffa0f0e93",
         "parentUid" : "151da20c594a9d6558adf2a98e5ea3da",
         "status" : "passed",
         "time" : {
-          "start" : 1733300327328,
-          "stop" : 1733300328980,
-          "duration" : 1652
+          "start" : 1733339186724,
+          "stop" : 1733339188873,
+          "duration" : 2149
         },
         "flaky" : false,
         "newFailed" : false,
@@ -61,91 +61,91 @@
       "name" : "Users",
       "children" : [ {
         "name" : "Create new user",
-        "uid" : "3dfb7ffb8813eb36",
+        "uid" : "a7d4cfa872c37d0",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1733300328983,
-          "stop" : 1733300330672,
-          "duration" : 1689
+          "start" : 1733339188875,
+          "stop" : 1733339190444,
+          "duration" : 1569
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "List all users",
-        "uid" : "a1897930fda85e1c",
+        "uid" : "2e0751d1d8f790a9",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1733300330674,
-          "stop" : 1733300331435,
-          "duration" : 761
+          "start" : 1733339190446,
+          "stop" : 1733339191138,
+          "duration" : 692
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete user",
-        "uid" : "db3c23fb567eefcf",
+        "uid" : "5cdd3032aa5bb18b",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1733300331437,
-          "stop" : 1733300333327,
-          "duration" : 1890
+          "start" : 1733339191140,
+          "stop" : 1733339193079,
+          "duration" : 1939
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Get user",
-        "uid" : "6f761b9bb3f56bd0",
+        "uid" : "f1f50c77936eedae",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1733300333329,
-          "stop" : 1733300334018,
-          "duration" : 689
+          "start" : 1733339193081,
+          "stop" : 1733339193753,
+          "duration" : 672
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Update user",
-        "uid" : "941a3b730391b4da",
+        "uid" : "2e18e760cadaac7e",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1733300334020,
-          "stop" : 1733300335733,
-          "duration" : 1713
+          "start" : 1733339193755,
+          "stop" : 1733339195240,
+          "duration" : 1485
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete user and verify user not in list",
-        "uid" : "16ab299ba8dcecd7",
+        "uid" : "1180fc8bae69baaf",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1733300335736,
-          "stop" : 1733300338042,
-          "duration" : 2306
+          "start" : 1733339195242,
+          "stop" : 1733339197766,
+          "duration" : 2524
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Get a user by email and password",
-        "uid" : "fdee425d3ef9efc3",
+        "uid" : "4f4cf6d140bcb90a",
         "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
         "status" : "passed",
         "time" : {
-          "start" : 1733300338045,
-          "stop" : 1733300338767,
-          "duration" : 722
+          "start" : 1733339197768,
+          "stop" : 1733339198331,
+          "duration" : 563
         },
         "flaky" : false,
         "newFailed" : false,
@@ -160,26 +160,26 @@
       "name" : "Wishlist",
       "children" : [ {
         "name" : "Get a wishlist",
-        "uid" : "6bc2147ae84fb7d4",
+        "uid" : "1a1b5de2141ea984",
         "parentUid" : "cfb07bea8e823a7b5f5d6a8926224ace",
         "status" : "passed",
         "time" : {
-          "start" : 1733300338769,
-          "stop" : 1733300340213,
-          "duration" : 1444
+          "start" : 1733339198334,
+          "stop" : 1733339199723,
+          "duration" : 1389
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Add an item to users wishlist",
-        "uid" : "c820abdffe4545ad",
+        "uid" : "7efee1d9f8379c7e",
         "parentUid" : "cfb07bea8e823a7b5f5d6a8926224ace",
         "status" : "passed",
         "time" : {
-          "start" : 1733300340216,
-          "stop" : 1733300341572,
-          "duration" : 1356
+          "start" : 1733339199725,
+          "stop" : 1733339201292,
+          "duration" : 1567
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,39 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "name" : "AssertionError: Test failed with error: Response is not JSON. Status code: 503, Response text: upstream connect error or disconnect/reset before headers. reset reason: connection termination\n  request-id: 48365d3a-62f3-4604-921e-66677567ecb0\n  trace-id: 6daf57ba10a6cfe7:4bb1ea9d3695cd59:6daf57ba10a6cfe7:1\n  \nassert False",
       "children" : [ {
         "name" : "Update user's avatar",
-        "uid" : "159193eb0f2046a7",
-        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
-        "status" : "broken",
+        "uid" : "73a4f1cb8be9d690",
+        "parentUid" : "f43dfbfde1e0c9f91398298d373fb1e5",
+        "status" : "failed",
         "time" : {
-          "start" : 1733300323967,
-          "stop" : 1733300325797,
-          "duration" : 1830
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Create a new order",
-        "uid" : "7d1b6f89968708b8",
-        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1733300325879,
-          "stop" : 1733300327298,
-          "duration" : 1419
+          "start" : 1733339119149,
+          "stop" : 1733339180502,
+          "duration" : 61353
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0deff55915d4c9ebc746eac29285817c"
+      "uid" : "f43dfbfde1e0c9f91398298d373fb1e5"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }
