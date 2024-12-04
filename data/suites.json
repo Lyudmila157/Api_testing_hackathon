@@ -8,13 +8,13 @@
         "name" : "TestAvatars",
         "children" : [ {
           "name" : "Update user's avatar",
-          "uid" : "c16f98b47e6c8f35",
+          "uid" : "f47f196401d0c563",
           "parentUid" : "0984c1c49ba09d3ebf9081315dac32d5",
-          "status" : "failed",
+          "status" : "broken",
           "time" : {
-            "start" : 1733298975951,
-            "stop" : 1733298975951,
-            "duration" : 0
+            "start" : 1733299715367,
+            "stop" : 1733299717399,
+            "duration" : 2032
           },
           "flaky" : false,
           "newFailed" : false,
@@ -29,167 +29,34 @@
         "name" : "TestOrders",
         "children" : [ {
           "name" : "Create a new order",
-          "uid" : "fd28a29151bdfd8",
+          "uid" : "f7f7d8c4a90ec631",
           "parentUid" : "9f4bdb141f51018c18d05074f3a69d30",
-          "status" : "failed",
+          "status" : "broken",
           "time" : {
-            "start" : 1733298977062,
-            "stop" : 1733298977062,
-            "duration" : 0
+            "start" : 1733299717479,
+            "stop" : 1733299719542,
+            "duration" : 2063
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "List all orders",
-          "uid" : "983f1b229f10bc46",
+          "uid" : "d6c7328cd1a80d33",
           "parentUid" : "9f4bdb141f51018c18d05074f3a69d30",
-          "status" : "failed",
+          "status" : "passed",
           "time" : {
-            "start" : 1733298977068,
-            "stop" : 1733298977068,
-            "duration" : 0
+            "start" : 1733299719572,
+            "stop" : 1733299721616,
+            "duration" : 2044
           },
           "flaky" : false,
-          "newFailed" : true,
+          "newFailed" : false,
           "parameters" : [ ]
         } ],
         "uid" : "9f4bdb141f51018c18d05074f3a69d30"
       } ],
       "uid" : "3c9f3f546ac2680413cdc312569abb08"
-    }, {
-      "name" : "test_users",
-      "children" : [ {
-        "name" : "TestUsers",
-        "children" : [ {
-          "name" : "Create new user",
-          "uid" : "829c902e0c5552f7",
-          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977073,
-            "stop" : 1733298977073,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "List all users",
-          "uid" : "22dec354f9b2a54c",
-          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977078,
-            "stop" : 1733298977078,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Delete user",
-          "uid" : "f1428ef0ec4e9cd3",
-          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977083,
-            "stop" : 1733298977083,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Get user",
-          "uid" : "231e80152c1ae7dc",
-          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977087,
-            "stop" : 1733298977087,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Update user",
-          "uid" : "de760efd70005ba9",
-          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977092,
-            "stop" : 1733298977092,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Delete user and verify user not in list",
-          "uid" : "e778bdf05fb0893d",
-          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977097,
-            "stop" : 1733298977097,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Get a user by email and password",
-          "uid" : "1f005606646842af",
-          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977102,
-            "stop" : 1733298977102,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "ebfe1567a4dbf0b698986d0f3c22ee42"
-      } ],
-      "uid" : "7572430cc09b27d0fc596fe3aa7bce31"
-    }, {
-      "name" : "test_wishlist",
-      "children" : [ {
-        "name" : "TestWishlist",
-        "children" : [ {
-          "name" : "Get a wishlist",
-          "uid" : "2573881772285794",
-          "parentUid" : "d7bee258079d090acba452dea48474ab",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977107,
-            "stop" : 1733298977107,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "Add an item to users wishlist",
-          "uid" : "773db4a6c3e5ec8f",
-          "parentUid" : "d7bee258079d090acba452dea48474ab",
-          "status" : "failed",
-          "time" : {
-            "start" : 1733298977112,
-            "stop" : 1733298977112,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "d7bee258079d090acba452dea48474ab"
-      } ],
-      "uid" : "a96376f4657cc54d2aea5c02ceff1873"
     } ],
     "uid" : "e387fa4bb326b54ea8c19c2822aba374"
   } ],
