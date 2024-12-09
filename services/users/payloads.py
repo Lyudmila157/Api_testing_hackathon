@@ -11,6 +11,13 @@ class Payloads:
         "nickname": fake.user_name()
     }
 
+    create_a_new_user_with_params ={
+        "email": "max@gmail.com",
+        "password": "password",
+        "name": "Max",
+        "nickname": "max"
+    }
+
     list_all_users = {
         "meta": {
             "total": 10
@@ -46,4 +53,12 @@ class Payloads:
                 "quantity": 1
             }
         ]
+    }
+
+    update_an_order_status = {
+        "status": "canceled"
+    }
+
+    user_uuid_one = {
+        "uuid": "00000000-0000-4562-b3fc-2c963f66afa6"
     }

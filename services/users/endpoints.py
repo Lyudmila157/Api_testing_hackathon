@@ -12,7 +12,7 @@ class Endpoints:
     get_user_by_id = lambda self, uuid: f"{HOST}/users/{uuid}"
     list_all_user = f"{HOST}/users"
     delete_a_user = lambda self, uuid: f"{HOST}/users/{uuid}"
-    get_user = f"{HOST}/users"
+    get_user = lambda self, uuid: f"{HOST}/users/{uuid}"
     update_a_user = lambda self, uuid: f"{HOST}/users/{uuid}"
     get_a_user_by_email_and_password = f"{HOST}/users/login"
     add_an_item_to_users_wishlist = lambda self, uuid: f"{HOST}/users/{uuid}/wishlist/add"
@@ -21,3 +21,10 @@ class Endpoints:
     create_a_new_order = lambda self, uuid: f"{HOST}/users/{uuid}/orders"
     list_all_orders_for_a_users = lambda self, uuid: f"{HOST}/users/{uuid}/orders"
     update_avatar = lambda self, uuid: f"{HOST}/users/{uuid}/avatar"
+    update_an_order_status = lambda self, uuid: f"{HOST}/orderds/{uuid}/status"
+
+    def add_an_item_to_users_wishlist_new(self, uuid):
+        """
+        Формирует URL для добавления элемента в вишлист пользователя.
+        """
+        return f"{HOST}/users/{uuid}/wishlist/add"

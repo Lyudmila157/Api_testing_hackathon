@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import requests
 import pytest
+import uuid
 
 load_dotenv()
 
@@ -18,5 +19,22 @@ def init_environment():
     )
     assert response.status_code == 205
 
+def generate_unique_user_data():
+    unique_id = str(uuid.uuid4())
+    return {
+        "email": f"user_{unique_id}@example.org",
+        "name": f"TestUser_{unique_id}",
+        "nickname": f"Nick_{unique_id}",
+        "avatar_url": f"https://avatar.com/{unique_id}",
+        "password": f"Password_{unique_id}"  # Добавляем уникальный пароль
+    }
+
+# @pytest.fixture(autouse=True, scope="function")
+# def cleanup_users(api_users):
+#     """
+#     Глобальная фикстура для очистки пользователей после каждого теста.
+#     """
+#     yield
+#     api_users.cleanup_all_users()  # Реализуйте метод для массовой очистки
 
 
