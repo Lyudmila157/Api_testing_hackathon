@@ -1,120 +1,100 @@
 [ {
-  "uid" : "1a1b5de2141ea984",
-  "name" : "Get a wishlist",
+  "uid" : "24f62641ebc1d462",
+  "name" : "Remove an item to users wishlist",
   "time" : {
-    "start" : 1733339198334,
-    "stop" : 1733339199723,
-    "duration" : 1389
+    "start" : 1733775964462,
+    "stop" : 1733775966642,
+    "duration" : 2180
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "73a4f1cb8be9d690",
-  "name" : "Update user's avatar",
+  "uid" : "d96823637d465360",
+  "name" : "Get user by id",
   "time" : {
-    "start" : 1733339119149,
-    "stop" : 1733339180502,
-    "duration" : 61353
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f4cf6d140bcb90a",
-  "name" : "Get a user by email and password",
-  "time" : {
-    "start" : 1733339197768,
-    "stop" : 1733339198331,
-    "duration" : 563
+    "start" : 1733775948594,
+    "stop" : 1733775950327,
+    "duration" : 1733
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2e0751d1d8f790a9",
-  "name" : "List all users",
-  "time" : {
-    "start" : 1733339190446,
-    "stop" : 1733339191138,
-    "duration" : 692
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ffe83b2ffa0f0e93",
-  "name" : "List all orders",
-  "time" : {
-    "start" : 1733339186724,
-    "stop" : 1733339188873,
-    "duration" : 2149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2e18e760cadaac7e",
+  "uid" : "e5bc86323a159391",
   "name" : "Update user",
   "time" : {
-    "start" : 1733339193755,
-    "stop" : 1733339195240,
-    "duration" : 1485
+    "start" : 1733775956520,
+    "stop" : 1733775958159,
+    "duration" : 1639
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a7d4cfa872c37d0",
-  "name" : "Create new user",
-  "time" : {
-    "start" : 1733339188875,
-    "stop" : 1733339190444,
-    "duration" : 1569
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5cdd3032aa5bb18b",
-  "name" : "Delete user",
-  "time" : {
-    "start" : 1733339191140,
-    "stop" : 1733339193079,
-    "duration" : 1939
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4da01ecb62646bbb",
-  "name" : "Create a new order",
-  "time" : {
-    "start" : 1733339180586,
-    "stop" : 1733339186721,
-    "duration" : 6135
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7efee1d9f8379c7e",
+  "uid" : "c80ce4b22edcf7ec",
   "name" : "Add an item to users wishlist",
   "time" : {
-    "start" : 1733339199725,
-    "stop" : 1733339201292,
-    "duration" : 1567
+    "start" : 1733775962472,
+    "stop" : 1733775964459,
+    "duration" : 1987
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f1f50c77936eedae",
-  "name" : "Get user",
+  "uid" : "7b3f7bfe4e8fc376",
+  "name" : "Get user's wishlist",
   "time" : {
-    "start" : 1733339193081,
-    "stop" : 1733339193753,
-    "duration" : 672
+    "start" : 1733775959701,
+    "stop" : 1733775962469,
+    "duration" : 2768
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1180fc8bae69baaf",
-  "name" : "Delete user and verify user not in list",
+  "uid" : "5fcb37485d4dfb16",
+  "name" : "Get a user by email and password",
   "time" : {
-    "start" : 1733339195242,
-    "stop" : 1733339197766,
-    "duration" : 2524
+    "start" : 1733775958161,
+    "stop" : 1733775959699,
+    "duration" : 1538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ffa5b4e4c8b214",
+  "name" : "Create new user and uuid",
+  "time" : {
+    "start" : 1733775946682,
+    "stop" : 1733775948591,
+    "duration" : 1909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3a6fa47c6c6f2e5",
+  "name" : "Delete a user by UUID",
+  "time" : {
+    "start" : 1733775951095,
+    "stop" : 1733775954779,
+    "duration" : 3684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f826f04543059af8",
+  "name" : "List all users",
+  "time" : {
+    "start" : 1733775950329,
+    "stop" : 1733775951093,
+    "duration" : 764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd06f5aaafd9c22e",
+  "name" : "Create and get a user",
+  "time" : {
+    "start" : 1733775954781,
+    "stop" : 1733775956517,
+    "duration" : 1736
   },
   "status" : "passed",
   "severity" : "normal"

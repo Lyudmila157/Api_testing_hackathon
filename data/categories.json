@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: Test failed with error: Response is not JSON. Status code: 503, Response text: upstream connect error or disconnect/reset before headers. reset reason: connection termination\n  request-id: 48365d3a-62f3-4604-921e-66677567ecb0\n  trace-id: 6daf57ba10a6cfe7:4bb1ea9d3695cd59:6daf57ba10a6cfe7:1\n  \nassert False",
-      "children" : [ {
-        "name" : "Update user's avatar",
-        "uid" : "73a4f1cb8be9d690",
-        "parentUid" : "f43dfbfde1e0c9f91398298d373fb1e5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1733339119149,
-          "stop" : 1733339180502,
-          "duration" : 61353
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f43dfbfde1e0c9f91398298d373fb1e5"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

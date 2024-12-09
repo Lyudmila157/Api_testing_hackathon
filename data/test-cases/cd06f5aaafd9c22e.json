@@ -1,0 +1,180 @@
+{
+  "uid" : "cd06f5aaafd9c22e",
+  "name" : "Create and get a user",
+  "fullName" : "tests.test_users.TestUsers#test_create_and_get_a_user",
+  "historyId" : "de8647c82ed73e668356f4cb75bf227c",
+  "time" : {
+    "start" : 1733775954781,
+    "stop" : 1733775956517,
+    "duration" : 1736
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1733775943614,
+      "stop" : 1733775946682,
+      "duration" : 3068
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1733775943611,
+      "stop" : 1733775943614,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUsers",
+    "time" : {
+      "start" : 1733775954781,
+      "stop" : 1733775954781,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user and uuid with model unique",
+      "time" : {
+        "start" : 1733775954781,
+        "stop" : 1733775955914,
+        "duration" : 1133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3384b95ac84cdc1",
+        "name" : "API Response",
+        "source" : "a3384b95ac84cdc1.json",
+        "type" : "application/json",
+        "size" : 268
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get a user",
+      "time" : {
+        "start" : 1733775955914,
+        "stop" : 1733775956517,
+        "duration" : 603
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f951ea8279b9ad4",
+        "name" : "API Response",
+        "source" : "7f951ea8279b9ad4.json",
+        "type" : "application/json",
+        "size" : 268
+      } ],
+      "parameters" : [ {
+        "name" : "user_uuid",
+        "value" : "'d6bcf56e-a41f-4d9b-b68d-cd835bccad84'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUsers::0",
+    "time" : {
+      "start" : 1733775956517,
+      "stop" : 1733775956517,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "feature",
+    "value" : "Users"
+  }, {
+    "name" : "tag",
+    "value" : "users"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_users"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUsers"
+  }, {
+    "name" : "host",
+    "value" : "b39a64f8e049"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "users" ]
+  },
+  "source" : "cd06f5aaafd9c22e.json",
+  "parameterValues" : [ ]
+}
