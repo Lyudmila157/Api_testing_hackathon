@@ -103,3 +103,23 @@ class Headers:
         "Authorization": f"Bearer {os.getenv('API_TOKEN')}",
         "X-Task-Id": "api-10"
     }
+
+    basic_api_12 = {
+        "Authorization": f"Bearer {os.getenv('API_TOKEN')}",
+        "X-Task-Id": "api-12"
+    }
+
+    basic_api_13 = {
+        "Authorization": f"Bearer {os.getenv('API_TOKEN')}",
+        "X-Task-Id": "api-13"
+    }
+
+    basic_api_14 = {
+        "Authorization": f"Bearer {os.getenv('API_TOKEN')}",
+        "X-Task-Id": "api-14"
+    }
+
+    basic_api_15 = {
+        "Authorization": f"Bearer {os.getenv('API_TOKEN')}",
+        "X-Task-Id": "api-15"
+    }

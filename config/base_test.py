@@ -4,6 +4,7 @@ from services.wishlist.api_wishlist import WishlistAPI
 # from services.avatars.api_avatars import AvatarsAPI
 from services.games.api_games import GamesAPI
 from services.categories.api_categories import CategoriesAPI
+from services.cart.api_cart import CartAPI
 
 class BaseTest:
 
@@ -14,3 +15,4 @@ class BaseTest:
         self.api_categories = CategoriesAPI()
         # self.orders_users = OrdersAPI()
         # self.avatars_api = AvatarsAPI()
+        self.api_cart = CartAPI()

@@ -11,7 +11,7 @@ class Payloads:
         "nickname": fake.user_name()
     }
 
-    create_a_new_user_with_params ={
+    create_a_new_user_with_params = {
         "email": "max@gmail.com",
         "password": "password",
         "name": "Max",
@@ -61,4 +61,9 @@ class Payloads:
 
     user_uuid_one = {
         "uuid": "00000000-0000-4562-b3fc-2c963f66afa6"
+    }
+
+    add_an_item_to_users_cart = {
+        "item_uuid": "00000000-0000-4562-b3fc-2c963f66afa6",
+        "quantity": 1
     }

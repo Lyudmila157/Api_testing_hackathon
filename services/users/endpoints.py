@@ -27,9 +27,12 @@ class Endpoints:
     get_game_by_category = lambda self, category_uuid: f"{HOST}/categories/{category_uuid}/games"
     list_all_categories =  f"{HOST}/categories"
     list_all_games = f"{HOST}/games"
+    get_a_cart = lambda self, uuid: f"{HOST}/users/{uuid}/cart"
+    change_an_item_in_user_cart = lambda self, uuid: f"{HOST}/users/{uuid}/cart/change"
+    remove_an_item_in_user_cart = lambda self, uuid: f"{HOST}/users/{uuid}/cart/remove"
+    clear_user_cart = lambda self, uuid: f"{HOST}/users/{uuid}/cart/clear"
+    add_an_item_to_users_cart = lambda self, uuid: f"{HOST}/users/{uuid}/cart/add"
 
-    # def add_an_item_to_users_wishlist_new(self, uuid):
-    #     """
-    #     Формирует URL для добавления элемента в вишлист пользователя.
-    #     """
-    #     return f"{HOST}/users/{uuid}/wishlist/add"
+
+
+
