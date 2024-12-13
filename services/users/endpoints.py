@@ -22,9 +22,14 @@ class Endpoints:
     list_all_orders_for_a_users = lambda self, uuid: f"{HOST}/users/{uuid}/orders"
     update_avatar = lambda self, uuid: f"{HOST}/users/{uuid}/avatar"
     update_an_order_status = lambda self, uuid: f"{HOST}/orderds/{uuid}/status"
+    search_games = f"{HOST}/games/search"
+    get_a_game = lambda self, game_uuid: f"{HOST}/games/{game_uuid}"
+    get_game_by_category = lambda self, category_uuid: f"{HOST}/categories/{category_uuid}/games"
+    list_all_categories =  f"{HOST}/categories"
+    list_all_games = f"{HOST}/games"
 
-    def add_an_item_to_users_wishlist_new(self, uuid):
-        """
-        Формирует URL для добавления элемента в вишлист пользователя.
-        """
-        return f"{HOST}/users/{uuid}/wishlist/add"
+    # def add_an_item_to_users_wishlist_new(self, uuid):
+    #     """
+    #     Формирует URL для добавления элемента в вишлист пользователя.
+    #     """
+    #     return f"{HOST}/users/{uuid}/wishlist/add"
