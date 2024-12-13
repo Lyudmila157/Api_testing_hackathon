@@ -1,5 +1,39 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: {'code': 422, 'message': 'Users limit is reached: 20'}",
+      "children" : [ {
+        "name" : "Add an item to users wishlist",
+        "uid" : "2cc5979d8e119bc2",
+        "parentUid" : "52689743f22154c7c2e7ab6975cb46df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1734120739367,
+          "stop" : 1734120739971,
+          "duration" : 604
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove an item to users wishlist",
+        "uid" : "5f5d07990e8e5db6",
+        "parentUid" : "52689743f22154c7c2e7ab6975cb46df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1734120740013,
+          "stop" : 1734120740615,
+          "duration" : 602
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52689743f22154c7c2e7ab6975cb46df"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

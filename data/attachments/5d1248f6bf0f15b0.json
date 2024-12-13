@@ -1,0 +1,4 @@
+{
+    "code": 400,
+    "message": "parameter \"user_uuid\" in path has an error: minimum string length is 36"
+}

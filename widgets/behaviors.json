@@ -1,6 +1,28 @@
 {
-  "total" : 4,
+  "total" : 5,
   "items" : [ {
+    "uid" : "7a40282d5a066390b75a4d22136cc427",
+    "name" : "Users Wishlist",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "548760bec8c2e5ef3c1a6d0cd53a8042",
+    "name" : "Cart tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "d41a31a62cd31ae141d2cedf507af3e3",
     "name" : "Categories tests",
     "statistic" : {
@@ -25,17 +47,6 @@
   }, {
     "uid" : "93837b4d60bfe3e71ac8002e68360ef6",
     "name" : "Administration",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "7a40282d5a066390b75a4d22136cc427",
-    "name" : "Users Wishlist",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

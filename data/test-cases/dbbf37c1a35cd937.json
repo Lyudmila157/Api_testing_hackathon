@@ -1,0 +1,255 @@
+{
+  "uid" : "dbbf37c1a35cd937",
+  "name" : "Add an item to user's cart",
+  "fullName" : "tests.test_cart.TestCart#test_add_an_item_to_users_cart",
+  "historyId" : "d6a4d6e57bd91450d30b78a3526d121c",
+  "time" : {
+    "start" : 1734120705313,
+    "stop" : 1734120711529,
+    "duration" : 6216
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1734120698198,
+      "stop" : 1734120698200,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart",
+    "time" : {
+      "start" : 1734120705313,
+      "stop" : 1734120705313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1734120698200,
+      "stop" : 1734120701866,
+      "duration" : 3666
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user and uuid with model unique",
+      "time" : {
+        "start" : 1734120705313,
+        "stop" : 1734120706769,
+        "duration" : 1456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b76a8dad57bd8e3",
+        "name" : "API Response",
+        "source" : "6b76a8dad57bd8e3.json",
+        "type" : "application/json",
+        "size" : 268
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Get a user",
+      "time" : {
+        "start" : 1734120706769,
+        "stop" : 1734120707350,
+        "duration" : 581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "97ab21bd898ce6",
+        "name" : "API Response",
+        "source" : "97ab21bd898ce6.json",
+        "type" : "application/json",
+        "size" : 268
+      } ],
+      "parameters" : [ {
+        "name" : "user_uuid",
+        "value" : "'b1c4276b-e8c0-45a9-9f0a-d770ef469f63'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Get a cart by user uuid ",
+      "time" : {
+        "start" : 1734120707351,
+        "stop" : 1734120708064,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "824a0a9e6ea99dea",
+        "name" : "API Response",
+        "source" : "824a0a9e6ea99dea.json",
+        "type" : "application/json",
+        "size" : 98
+      } ],
+      "parameters" : [ {
+        "name" : "user_uuid",
+        "value" : "'b1c4276b-e8c0-45a9-9f0a-d770ef469f63'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "List all games",
+      "time" : {
+        "start" : 1734120708064,
+        "stop" : 1734120709526,
+        "duration" : 1462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "236c0ba77680be2",
+        "name" : "API Response",
+        "source" : "236c0ba77680be2.json",
+        "type" : "application/json",
+        "size" : 2577
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Add an item to user's cart",
+      "time" : {
+        "start" : 1734120709526,
+        "stop" : 1734120711529,
+        "duration" : 2003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4598ca28dd83a7d3",
+        "name" : "API Response",
+        "source" : "4598ca28dd83a7d3.json",
+        "type" : "application/json",
+        "size" : 250
+      } ],
+      "parameters" : [ {
+        "name" : "user_uuid",
+        "value" : "'b1c4276b-e8c0-45a9-9f0a-d770ef469f63'"
+      }, {
+        "name" : "item_uuid",
+        "value" : "'1990ecdd-4d3d-4de2-91b9-d45d794c82bc'"
+      }, {
+        "name" : "quantity",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestCart::0",
+    "time" : {
+      "start" : 1734120711529,
+      "stop" : 1734120711529,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Cart tests"
+  }, {
+    "name" : "feature",
+    "value" : "Cart"
+  }, {
+    "name" : "tag",
+    "value" : "cart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "4d2945cab5c8"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "cart" ]
+  },
+  "source" : "dbbf37c1a35cd937.json",
+  "parameterValues" : [ ]
+}
