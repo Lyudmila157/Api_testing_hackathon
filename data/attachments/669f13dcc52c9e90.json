@@ -1,0 +1,47 @@
+{
+    "categories": [
+        {
+            "name": "Action",
+            "uuid": "8126d35b-5336-41ad-981d-f245c3e05665"
+        },
+        {
+            "name": "Action RPG",
+            "uuid": "78fcb98b-d820-4d79-a049-e2089b7ce87a"
+        },
+        {
+            "name": "Adventure",
+            "uuid": "02ba89a9-81fa-4ac9-b8a3-a3b57ce1e836"
+        },
+        {
+            "name": "Arcade",
+            "uuid": "335f6021-9d2a-4be5-9f56-d5cb81aa324b"
+        },
+        {
+            "name": "Fighting",
+            "uuid": "8fd46af9-292e-4c9f-92f0-c17bf9f82b48"
+        },
+        {
+            "name": "Interactive movie",
+            "uuid": "b50e7825-d751-41e1-b906-af892d42ee54"
+        },
+        {
+            "name": "Platformer",
+            "uuid": "54c84a12-a410-496e-90ed-5ae660628118"
+        },
+        {
+            "name": "Racing",
+            "uuid": "26230884-a7ca-4533-ae51-f234d349864e"
+        },
+        {
+            "name": "Rhythm",
+            "uuid": "68c54140-91e6-4146-930d-6a5caf3582be"
+        },
+        {
+            "name": "Shooter",
+            "uuid": "e86aecef-fe7a-4164-a324-57503df14ab9"
+        }
+    ],
+    "meta": {
+        "total": 16
+    }
+}

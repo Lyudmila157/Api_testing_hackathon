@@ -1,0 +1,223 @@
+{
+  "uid" : "acef2a8012251548",
+  "name" : "Get user's wishlist",
+  "fullName" : "tests.test_wishlist.TestWishlist#test_get_user_wishlist",
+  "historyId" : "01f9f47c854689402929e44ee2da6c3c",
+  "time" : {
+    "start" : 1734075260136,
+    "stop" : 1734075262674,
+    "duration" : 2538
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_environment",
+    "time" : {
+      "start" : 1734075230610,
+      "stop" : 1734075233951,
+      "duration" : 3341
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestWishlist",
+    "time" : {
+      "start" : 1734075260136,
+      "stop" : 1734075260136,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1734075230607,
+      "stop" : 1734075230609,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user and uuid with model unique",
+      "time" : {
+        "start" : 1734075260136,
+        "stop" : 1734075261095,
+        "duration" : 959
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1dbf92367af4bcb",
+        "name" : "API Response",
+        "source" : "c1dbf92367af4bcb.json",
+        "type" : "application/json",
+        "size" : 268
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Get a user",
+      "time" : {
+        "start" : 1734075261095,
+        "stop" : 1734075261850,
+        "duration" : 755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96a37c9c4c18a53e",
+        "name" : "API Response",
+        "source" : "96a37c9c4c18a53e.json",
+        "type" : "application/json",
+        "size" : 268
+      } ],
+      "parameters" : [ {
+        "name" : "user_uuid",
+        "value" : "'7ccd0817-9096-45bd-accb-d27fc34798c6'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Get user's wishlist by UUID",
+      "time" : {
+        "start" : 1734075261850,
+        "stop" : 1734075262673,
+        "duration" : 823
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc57d9bfbaab3b07",
+        "name" : "API Response",
+        "source" : "fc57d9bfbaab3b07.json",
+        "type" : "application/json",
+        "size" : 76
+      } ],
+      "parameters" : [ {
+        "name" : "user_uuid",
+        "value" : "'7ccd0817-9096-45bd-accb-d27fc34798c6'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist::0",
+    "time" : {
+      "start" : 1734075262674,
+      "stop" : 1734075262674,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Wishlist"
+  }, {
+    "name" : "epic",
+    "value" : "Users Wishlist"
+  }, {
+    "name" : "tag",
+    "value" : "wishlist"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_wishlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWishlist"
+  }, {
+    "name" : "host",
+    "value" : "4362b98a6ec7"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_wishlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7b3f7bfe4e8fc376",
+        "status" : "passed",
+        "time" : {
+          "start" : 1733775959701,
+          "stop" : 1733775962469,
+          "duration" : 2768
+        }
+      } ]
+    },
+    "tags" : [ "wishlist" ]
+  },
+  "source" : "acef2a8012251548.json",
+  "parameterValues" : [ ]
+}

@@ -1,100 +1,170 @@
 [ {
-  "uid" : "24f62641ebc1d462",
-  "name" : "Remove an item to users wishlist",
-  "time" : {
-    "start" : 1733775964462,
-    "stop" : 1733775966642,
-    "duration" : 2180
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d96823637d465360",
-  "name" : "Get user by id",
-  "time" : {
-    "start" : 1733775948594,
-    "stop" : 1733775950327,
-    "duration" : 1733
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e5bc86323a159391",
-  "name" : "Update user",
-  "time" : {
-    "start" : 1733775956520,
-    "stop" : 1733775958159,
-    "duration" : 1639
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c80ce4b22edcf7ec",
-  "name" : "Add an item to users wishlist",
-  "time" : {
-    "start" : 1733775962472,
-    "stop" : 1733775964459,
-    "duration" : 1987
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b3f7bfe4e8fc376",
+  "uid" : "acef2a8012251548",
   "name" : "Get user's wishlist",
   "time" : {
-    "start" : 1733775959701,
-    "stop" : 1733775962469,
-    "duration" : 2768
+    "start" : 1734075260136,
+    "stop" : 1734075262674,
+    "duration" : 2538
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5fcb37485d4dfb16",
-  "name" : "Get a user by email and password",
-  "time" : {
-    "start" : 1733775958161,
-    "stop" : 1733775959699,
-    "duration" : 1538
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ffa5b4e4c8b214",
-  "name" : "Create new user and uuid",
-  "time" : {
-    "start" : 1733775946682,
-    "stop" : 1733775948591,
-    "duration" : 1909
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3a6fa47c6c6f2e5",
-  "name" : "Delete a user by UUID",
-  "time" : {
-    "start" : 1733775951095,
-    "stop" : 1733775954779,
-    "duration" : 3684
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f826f04543059af8",
+  "uid" : "9cddee0db6f8302f",
   "name" : "List all users",
   "time" : {
-    "start" : 1733775950329,
-    "stop" : 1733775951093,
-    "duration" : 764
+    "start" : 1734075249631,
+    "stop" : 1734075251617,
+    "duration" : 1986
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cd06f5aaafd9c22e",
+  "uid" : "254b23e13bda5222",
+  "name" : "Get game by UUID",
+  "time" : {
+    "start" : 1734075244553,
+    "stop" : 1734075246188,
+    "duration" : 1635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40f7cf74b5c5dd6c",
+  "name" : "Get a user by email and password",
+  "time" : {
+    "start" : 1734075258434,
+    "stop" : 1734075260134,
+    "duration" : 1700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b76bb10449e5f4d5",
+  "name" : "Add an item to users wishlist",
+  "time" : {
+    "start" : 1734075262676,
+    "stop" : 1734075265342,
+    "duration" : 2666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac87836c42521cf4",
+  "name" : "Get games by category",
+  "time" : {
+    "start" : 1734075235164,
+    "stop" : 1734075237857,
+    "duration" : 2693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0bab551173de9ac",
+  "name" : "Create new user and uuid",
+  "time" : {
+    "start" : 1734075246191,
+    "stop" : 1734075247946,
+    "duration" : 1755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f79727d85b3f2d04",
+  "name" : "Get games by category dynamic new",
+  "time" : {
+    "start" : 1734075240264,
+    "stop" : 1734075242504,
+    "duration" : 2240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7bf4202d20c3924",
+  "name" : "Update user",
+  "time" : {
+    "start" : 1734075256530,
+    "stop" : 1734075258431,
+    "duration" : 1901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39b59b38b84ca4d2",
+  "name" : "List all games",
+  "time" : {
+    "start" : 1734075242506,
+    "stop" : 1734075243440,
+    "duration" : 934
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "192f5b43e5dd3145",
+  "name" : "Get games by category dinamic",
+  "time" : {
+    "start" : 1734075237860,
+    "stop" : 1734075240261,
+    "duration" : 2401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22fd1b0701cc18e9",
+  "name" : "Delete a user by UUID",
+  "time" : {
+    "start" : 1734075251619,
+    "stop" : 1734075254754,
+    "duration" : 3135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cb22e377bb8e2b0",
+  "name" : "Get user by id",
+  "time" : {
+    "start" : 1734075247948,
+    "stop" : 1734075249629,
+    "duration" : 1681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58cf139970176dea",
+  "name" : "List all categories",
+  "time" : {
+    "start" : 1734075233952,
+    "stop" : 1734075235162,
+    "duration" : 1210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7fb1adda573ee3c",
   "name" : "Create and get a user",
   "time" : {
-    "start" : 1733775954781,
-    "stop" : 1733775956517,
-    "duration" : 1736
+    "start" : 1734075254757,
+    "stop" : 1734075256528,
+    "duration" : 1771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a03cd1a9850f6636",
+  "name" : "Remove an item to users wishlist",
+  "time" : {
+    "start" : 1734075265345,
+    "stop" : 1734075267958,
+    "duration" : 2613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5abafad3b4cbbf4a",
+  "name" : "Search games",
+  "time" : {
+    "start" : 1734075243442,
+    "stop" : 1734075244551,
+    "duration" : 1109
   },
   "status" : "passed",
   "severity" : "normal"

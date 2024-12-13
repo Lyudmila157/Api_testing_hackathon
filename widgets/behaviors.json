@@ -1,6 +1,28 @@
 {
-  "total" : 2,
+  "total" : 4,
   "items" : [ {
+    "uid" : "d41a31a62cd31ae141d2cedf507af3e3",
+    "name" : "Categories tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f26ceda8993dc3606a8fd6830bca19a2",
+    "name" : "Games Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "93837b4d60bfe3e71ac8002e68360ef6",
     "name" : "Administration",
     "statistic" : {
