@@ -141,7 +141,7 @@ class TestCart(BaseTest):
         print(f"Retrieved User Data: {user_data}")
         assert user_data["uuid"] == user_uuid, "UUID mismatch"
         assert "email" in user_data, "Email is missing"
-        # Добавить товары в корзину
+        # добавить товары в корзину
         games_list = self.api_games.list_all_games()
         assert games_list.get("games"), "No games available in the list"
         item_uuid = games_list["games"][0]["uuid"]
