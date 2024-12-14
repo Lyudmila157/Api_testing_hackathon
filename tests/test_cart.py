@@ -132,4 +132,28 @@ class TestCart(BaseTest):
 
         print(f"Item {item_uuid} successfully removed from cart of user {user_uuid}.")
 
-
+    @pytest.mark.cart
+    @allure.title("Clear user's cart")
+    def test_clear_users_cart(self):
+        new_user = self.api_users.create_user_and_uuid_with_model_unique()
+        user_uuid = new_user.uuid
+        user_data = self.api_users.get_a_user(user_uuid)
+        print(f"Retrieved User Data: {user_data}")
+        assert user_data["uuid"] == user_uuid, "UUID mismatch"
+        assert "email" in user_data, "Email is missing"
+        # Добавить товары в корзину
+        games_list = self.api_games.list_all_games()
+        assert games_list.get("games"), "No games available in the list"
+        item_uuid = games_list["games"][0]["uuid"]
+        print(f"Selected Game UUID: {item_uuid}")
+        self.api_cart.add_an_item_to_users_cart(user_uuid, item_uuid, 1)
+        # проверяем, что товар добавлен
+        cart_data = self.api_cart.get_a_cart(user_uuid)
+        assert cart_data["items"], "Cart is empty, but it should contain items."
+        clear_response = self.api_cart.clear_users_cart(user_uuid)
+        assert clear_response.status_code == 200, f"Failed to clear cart. Status code: {clear_response.status_code}"
+        # проверим, что корзина пуста
+        updated_cart_data = self.api_cart.get_a_cart(user_uuid)
+        assert updated_cart_data["items"] == [], "Cart is not empty after clearing."
+        assert updated_cart_data["total_price"] == 0, "Total price is not zero after clearing."
+        print(f"Cart successfully cleared for user {user_uuid}.")

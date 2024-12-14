@@ -116,5 +116,24 @@ class CartAPI(Helper):
         self.attach_response(response.json())
         return response
 
-
-
+    @allure.step("Clear user's cart")
+    def clear_users_cart(self, user_uuid):
+        url = self.endpoints.clear_user_cart(user_uuid)
+        payload = {
+            "items": [],
+            "total_price": 0,
+            "user_uuid": user_uuid
+        }
+        response = requests.post(
+            url=url,
+            headers=self.headers.basic_api_15,
+            json=payload
+        )
+        self.attach_response(response.json())
+        if response.status_code == 200:
+            print(f"Cart for user {user_uuid} cleared successfully.")
+            print(f"Response: {response.json()}")
+        else:
+            print(
+                f"Failed to clear cart for user {user_uuid}. Status code: {response.status_code}, Response: {response.text}")
+        return response
