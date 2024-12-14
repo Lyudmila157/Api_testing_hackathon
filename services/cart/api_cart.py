@@ -58,8 +58,8 @@ class CartAPI(Helper):
         else:
             print(f"Failed to update user's cart. Status code: {response.status_code}, Response: {response.text}")
 
-    @allure.step("Change quantity for already existing item in user's cart")
-    def change_quantity_for_existing_item_in_cart(self, user_uuid, item_uuid, new_quantity):
+    @allure.step("Change an item from users cart")
+    def change_an_item_from_users_cart(self, user_uuid, item_uuid, new_quantity):
         # текущие данные корзины пользователя
         cart_data = self.get_a_cart(user_uuid)
         # Проверь, есть ли товар в корзине
@@ -86,3 +86,35 @@ class CartAPI(Helper):
                 print(f"Failed to update item quantity. Status code: {response.status_code}, Response: {response.text}")
         else:
             print(f"Item {item_uuid} not found in cart of user {user_uuid}.")
+
+    @allure.step("Removes an item from user's cart")
+    def remove_an_item_from_users_cart(self, user_uuid: str, item_uuid: str, new_quantity: int):
+        # текущие данные корзины
+        cart_data = self.get_a_cart(user_uuid)
+        print(f"Current Cart Data: {cart_data}")
+        # Проверь, есть ли товар в корзине
+        item_in_cart = next((item for item in cart_data.get("items", []) if item["item_uuid"] == item_uuid), None)
+        if not item_in_cart:
+            print(f"Item {item_uuid} not found in cart for user {user_uuid}.")
+            return None  # Возвратим None, чтобы указать на отсутствие товара
+
+        payload = {
+            "item_uuid": item_uuid,
+            "quantity": new_quantity
+        }
+        url = self.endpoints.remove_an_item_in_user_cart(user_uuid)
+        response = requests.post(
+            url=url,
+            headers=self.headers.basic_api_13,
+            json=payload
+        )
+        if response.status_code == 200:
+            print(f"Quantity for item {item_uuid} updated successfully in cart of user {user_uuid}.")
+            print(f"Response: {response.json()}")
+        else:
+            print(f"Failed to update item quantity. Status code: {response.status_code}, Response: {response.text}")
+        self.attach_response(response.json())
+        return response
+
+
+

@@ -61,8 +61,8 @@ class TestCart(BaseTest):
         self.api_cart.add_an_item_to_users_cart(user_uuid, item_uuid, quantity)
 
     @pytest.mark.cart
-    @allure.title("Change quantity for already existing item in user's cart")
-    def test_change_quantity_for_existing_item_in_users_cart(self):
+    @allure.title("Change an item to user cart")
+    def test_change_an_item_to_user_cart(self):
         new_user = self.api_users.create_user_and_uuid_with_model_unique()
         user_uuid = new_user.uuid
         user_data = self.api_users.get_a_user(user_uuid)
@@ -84,10 +84,52 @@ class TestCart(BaseTest):
         new_quantity = 2
         assert new_quantity <= 100, "Quantity exceeds the allowed limit (100)."
         # Меняем количество товара в корзине
-        self.api_cart.change_quantity_for_existing_item_in_cart(user_uuid, item_uuid, new_quantity)
+        self.api_cart.change_an_item_from_users_cart(user_uuid, item_uuid, new_quantity)
         # Проверяем, что количество изменилось
         updated_cart_data = self.api_cart.get_a_cart(user_uuid)
         updated_item = next((item for item in updated_cart_data["items"] if item["item_uuid"] == item_uuid), None)
         assert updated_item is not None, f"Item {item_uuid} not found in updated cart"
         assert updated_item[
                    "quantity"] == new_quantity, f"Expected quantity {new_quantity}, but got {updated_item['quantity']}"
+
+    @pytest.mark.cart
+    @allure.title("Remove an item from user's cart")
+    def test_remove_an_item_from_user_cart(self):
+        new_user = self.api_users.create_user_and_uuid_with_model_unique()
+        user_uuid = new_user.uuid
+        user_data = self.api_users.get_a_user(user_uuid)
+        print(f"Retrieved User Data: {user_data}")
+        assert user_data["uuid"] == user_uuid, "UUID mismatch"
+        assert "email" in user_data, "Email is missing"
+        # Проверь состояние корзины
+        cart_data = self.api_cart.get_a_cart(user_uuid)
+        assert cart_data is not None, "Failed to retrieve user's cart"
+        print(f"Initial Cart Data: {cart_data}")
+        # список доступных игр
+        games_list = self.api_games.list_all_games()
+        assert games_list.get("games"), "No games available in the list"
+        item_uuid = games_list["games"][0]["uuid"]
+        print(f"Selected Game UUID: {item_uuid}")
+        # Добавь товар в корзину, если она пуста
+        if not cart_data.get("items"):
+            print("Cart is empty. Adding a new item.")
+            self.api_cart.add_an_item_to_users_cart(user_uuid, item_uuid, 1)
+            cart_data = self.api_cart.get_a_cart(user_uuid)
+            print(f"Updated Cart Data After Adding: {cart_data}")
+        # Проверь, что элемент добавлен
+        item_in_cart = next((item for item in cart_data.get("items", []) if item["item_uuid"] == item_uuid), None)
+        assert item_in_cart, f"Item {item_uuid} was not added to the cart"
+        # Удаляем товар из корзины
+        print(f"Removing item {item_uuid} from cart...")
+        remove_response = self.api_cart.remove_an_item_from_users_cart(user_uuid, item_uuid, 0)
+        assert remove_response.status_code == 200, f"Failed to remove item from cart. Status code: {remove_response.status_code}"
+        # Проверь, что элемент удален
+        updated_cart_data = self.api_cart.get_a_cart(user_uuid)
+        print(f"Updated Cart Data After Removing: {updated_cart_data}")
+        removed_item = next((item for item in updated_cart_data.get("items", []) if item["item_uuid"] == item_uuid),
+                            None)
+        assert removed_item is None, f"Item {item_uuid} was not removed from the cart"
+
+        print(f"Item {item_uuid} successfully removed from cart of user {user_uuid}.")
+
+
