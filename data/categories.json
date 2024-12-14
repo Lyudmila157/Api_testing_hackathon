@@ -1,34 +1,68 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "children" : [ {
+        "name" : "Create and get a user",
+        "uid" : "13825ee7a1bc50d5",
+        "parentUid" : "c7ffba1feffbb0fe2ecff731109669a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1734177618309,
+          "stop" : 1734177618574,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7ffba1feffbb0fe2ecff731109669a2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "AssertionError: {'code': 422, 'message': 'Users limit is reached: 20'}",
       "children" : [ {
-        "name" : "Add an item to users wishlist",
-        "uid" : "2cc5979d8e119bc2",
+        "name" : "Get user's wishlist",
+        "uid" : "b2ccfdd525df1338",
         "parentUid" : "52689743f22154c7c2e7ab6975cb46df",
         "status" : "failed",
         "time" : {
-          "start" : 1734120739367,
-          "stop" : 1734120739971,
-          "duration" : 604
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "Remove an item to users wishlist",
-        "uid" : "5f5d07990e8e5db6",
-        "parentUid" : "52689743f22154c7c2e7ab6975cb46df",
-        "status" : "failed",
-        "time" : {
-          "start" : 1734120740013,
-          "stop" : 1734120740615,
-          "duration" : 602
+          "start" : 1734177622323,
+          "stop" : 1734177622889,
+          "duration" : 566
         },
         "flaky" : false,
         "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add an item to users wishlist",
+        "uid" : "6fdbd56a84fa2185",
+        "parentUid" : "52689743f22154c7c2e7ab6975cb46df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1734177622897,
+          "stop" : 1734177623421,
+          "duration" : 524
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Remove an item to users wishlist",
+        "uid" : "49ce15c0cadcc19c",
+        "parentUid" : "52689743f22154c7c2e7ab6975cb46df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1734177623428,
+          "stop" : 1734177623962,
+          "duration" : 534
+        },
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "52689743f22154c7c2e7ab6975cb46df"

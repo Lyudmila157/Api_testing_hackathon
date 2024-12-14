@@ -12,6 +12,17 @@
       "total" : 1
     }
   }, {
+    "uid" : "93837b4d60bfe3e71ac8002e68360ef6",
+    "name" : "Administration",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "548760bec8c2e5ef3c1a6d0cd53a8042",
     "name" : "Cart tests",
     "statistic" : {
@@ -36,17 +47,6 @@
   }, {
     "uid" : "f26ceda8993dc3606a8fd6830bca19a2",
     "name" : "Games Tests",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "93837b4d60bfe3e71ac8002e68360ef6",
-    "name" : "Administration",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

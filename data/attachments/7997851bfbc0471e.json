@@ -1,0 +1,11 @@
+{
+    "items": [
+        {
+            "item_uuid": "1990ecdd-4d3d-4de2-91b9-d45d794c82bc",
+            "quantity": 1,
+            "total_price": 5999
+        }
+    ],
+    "total_price": 5999,
+    "user_uuid": "73fb28cc-cb89-4c3b-9385-994c3d38ca47"
+}
